@@ -34,7 +34,10 @@ public class EnemyMovement : MonoBehaviour
     {
         if (collision.collider.CompareTag($"Bullet"))
         {
+            _rb.linearVelocity = Vector2.zero;
             _rb.bodyType = RigidbodyType2D.Static;
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
+            GetComponent<Animator>().SetBool("Alive", false);
             Destroy(gameObject, 2);
         }   
     }

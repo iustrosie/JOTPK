@@ -212,7 +212,7 @@ TextureImporter:
         serializedVersion: 2
         x: 31
         y: 63
-        width: 17
+        width: 16
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -234,7 +234,7 @@ TextureImporter:
         serializedVersion: 2
         x: 47
         y: 63
-        width: 17
+        width: 16
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -277,9 +277,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 46
-        width: 17
-        height: 18
+        y: 47
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,9 +541,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 48
+        y: 58
         width: 15
-        height: 15
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,6 +668,50 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: JOTPK_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 53
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103351c64bbbc00399bcf2ebb41b662c
+      internalID: 323943303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JOTPK_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f1e270775daa258bfa9129958b2056
+      internalID: -1789012081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -685,12 +729,14 @@ TextureImporter:
       JOTPK_0: 2288799106586662611
       JOTPK_1: 3437746150719678469
       JOTPK_10: -5423295323319621683
+      JOTPK_11: -1789012081
       JOTPK_13: 4635709595967531143
       JOTPK_14: -6568722868314469745
       JOTPK_16: -5627945518025841144
       JOTPK_17: 845035564
       JOTPK_2: 2386693560893947915
       JOTPK_3: -2528562882618740190
+      JOTPK_4: 323943303
       JOTPK_5: 712812443381409409
       JOTPK_6: -2641173565710226751
       JOTPK_7: 7202168631813995586
