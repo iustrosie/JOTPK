@@ -160,6 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 17314704}
   - component: {fileID: 17314705}
+  - component: {fileID: 17314706}
   m_Layer: 3
   m_Name: Legs
   m_TagString: Untagged
@@ -242,6 +243,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!95 &17314706
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17314703}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a86505e6fa67303ab900d9b8464fe619, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &66150686
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +355,7 @@ GameObject:
   - component: {fileID: 88340570}
   - component: {fileID: 88340569}
   - component: {fileID: 88340574}
+  - component: {fileID: 88340575}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -525,6 +549,24 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &88340575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88340568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3ba57a6c28c280e3bdf3ca07a151e67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _sprites:
+  - {fileID: 712812443381409409, guid: c5b3d65cbb0da593aa9fad5e5c134b5a, type: 3}
+  - {fileID: 2386693560893947915, guid: c5b3d65cbb0da593aa9fad5e5c134b5a, type: 3}
+  - {fileID: 2288799106586662611, guid: c5b3d65cbb0da593aa9fad5e5c134b5a, type: 3}
+  - {fileID: -2528562882618740190, guid: c5b3d65cbb0da593aa9fad5e5c134b5a, type: 3}
+  - {fileID: 3437746150719678469, guid: c5b3d65cbb0da593aa9fad5e5c134b5a, type: 3}
 --- !u!1 &90085589
 GameObject:
   m_ObjectHideFlags: 0

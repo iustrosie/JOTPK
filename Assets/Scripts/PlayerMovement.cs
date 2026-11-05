@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _bulletSpeed = 12.5f;
 
     private Vector2 _attackInput;
+    private Vector2 _moveInput;
     private bool _isAttacking;
     private Coroutine _attackCoroutine;
 
@@ -26,13 +27,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _timer+=Time.deltaTime;
+        _timer+=Time.fixedDeltaTime;
+        _rb.linearVelocity = _moveInput.normalized * _speed;
     }
 
     void OnMove(InputValue value)
     {
-        Vector2 move = value.Get<Vector2>();
-        _rb.linearVelocity = move * _speed;
+        _moveInput = value.Get<Vector2>();
     }
 
     public void OnAttack(InputValue value)
